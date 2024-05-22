@@ -1,27 +1,31 @@
 import streamlit as st
 
 
-st.title ("helle world ")
+st.title (" Apprentissage de python ")
 
 # Tyoe de données : entier naturel et les float 
 
 variable_1 = 10
-st.write(variable_1)
-# multiplication 
-st.write(variable_1*2)
-# division 
-st.write(variable_1/2)
-#affichage du type de variable 
-#st.write(type(variable_1/2))
+st.write(" Créatin de la variable :",variable_1)
 
-st.write(variable_1//2)
+# multiplication 
+st.write(" Multiplication de la variable :",variable_1*2)
+
+# division 
+st.write(" Division de la variable :",variable_1/2)
+#affichage du type de variable
+ 
+#st.write(type(variable_1/2))
+st.write(" Retenir que les entier :",variable_1//2)
 # puissance 
-st.write(variable_1**2)
+st.write(" Puissance de la variable :",variable_1**2)
 
 #Type de données : string (chaine de carractere )
 variable_2 = " hello world "
 #st.write(type(variable_2))
+
 #Multiolication de chaine de carractére 
-st.write (variable_2*2)
+st.write (" multiplication de chaine de carractére :",variable_2*2)
+
 #adition de chaine de carractére
-st.write (variable_2+ "!")
+st.write (" Aditon de la chaine de caractére :",variable_2+ "!")
