@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title (" Apprentissage de python ")
 
-
+st.sidebar.image('photo.JPG', caption='photo de Profil')
 st.sidebar.write("Rodney Duranty")
 
 # Tyoe de données : entier naturel et les float 
@@ -32,3 +32,4 @@ st.write (" multiplication de chaine de carractére :",variable_2*2)
 
 #adition de chaine de carractére
 st.write (" Aditon de la chaine de caractére :",variable_2+ "!")
+

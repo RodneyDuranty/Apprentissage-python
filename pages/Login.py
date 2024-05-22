@@ -3,6 +3,7 @@ import streamlit as st
 good_password = "1234"
 
 password = st.text_input("tapper votre mot de passe")
+st.sidebar.image('photo.JPG', caption='photo de Profil')
 st.sidebar.write("Rodney Duranty")
 
 if good_password == password :
