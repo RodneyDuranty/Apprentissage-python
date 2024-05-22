@@ -3,6 +3,9 @@ import streamlit as st
 
 st.title (" Apprentissage de python ")
 
+
+st.sidebar.write("Rodney Duranty")
+
 # Tyoe de données : entier naturel et les float 
 
 variable_1 = 10
