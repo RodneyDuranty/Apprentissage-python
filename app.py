@@ -4,7 +4,7 @@ import streamlit as st
 st.title (" Apprentissage de python ")
 
 st.sidebar.image('photo.JPG', caption='Rodney Duranty')
-
+st.sidebar.link_button("Go to linkedin", "https://www.linkedin.com/in/rodney-duranty/")
 
 # Tyoe de données : entier naturel et les float 
 
