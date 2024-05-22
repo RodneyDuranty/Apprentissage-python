@@ -1,7 +1,6 @@
 import streamlit as st
 
-
-st.title (" Apprentissage de python ")
+st.title ("Apprentissage de python ")
 
 st.sidebar.image('photo.JPG', caption='Rodney Duranty')
 st.sidebar.link_button("Go to linkedin", "https://www.linkedin.com/in/rodney-duranty/")
@@ -32,4 +31,3 @@ st.write (" Multiplication de chaine de carractére : ",variable_2*2)
 
 #adition de chaine de carractére
 st.write (" Aditon de la chaine de caractére : ",variable_2+ "!")
-
