@@ -1,4 +1,7 @@
 import streamlit as st
+st.set_page_config(page_title='Apprentissage de python',
+                   page_icon='👨🏻‍💻',
+                   layout="centered")
 
 st.title ("Apprentissage de python ")
 
