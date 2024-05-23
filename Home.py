@@ -5,7 +5,7 @@ st.set_page_config(page_title='Apprentissage de python',
 
 st.title ("Apprentissage de python ")
 
-st.sidebar.image('photo.JPG', caption='Rodney Duranty')
+st.sidebar.image('photo.webp', caption='Rodney Duranty')
 st.sidebar.link_button("Go to linkedin", "https://www.linkedin.com/in/rodney-duranty/")
 
 # Tyoe de données : entier naturel et les float 
