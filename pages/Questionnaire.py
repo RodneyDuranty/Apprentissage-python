@@ -4,12 +4,14 @@ st.title (" Questionnaire ")
 
 st.sidebar.image('photo.webp', caption='Rodney Duranty')
 
-title = st.text_input("Nom", "")
+title = st.text_input("Nom", "nom")
 
-title = st.text_input("Prénom", "")
+title = st.text_input("Prénom", "prénom")
 
 age = st.slider("Age", 0, 130 )
-import datetime
-import streamlit as st
 
-d = st.date_input("Né le :",)
+title = st.text_input("Adresse", "n° et voies")
+
+title = st.text_input("complément d'adresse", "porte")
+
+title = st.text_input("Code postale", "75000")
