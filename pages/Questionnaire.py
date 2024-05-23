@@ -25,7 +25,7 @@ title = st.text_input("Code postal", "75000")
 
 genre = st.radio(
     "Situation :",
-    [":red[en couple]", "célibataire", "marié:"],
+    ["[en couple]", "célibataire", "marié"],
     captions = ["", "", ""])
 
 
