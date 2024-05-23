@@ -4,5 +4,5 @@ st.title (" Questionnaire ")
 
 st.sidebar.image('photo.webp', caption='Rodney Duranty')
 
-title = st.text_input("nom, prénom", "")
+title = st.text_input("Movie title", "Life of Brian")
 st.write("The current movie title is", title)
