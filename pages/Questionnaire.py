@@ -29,6 +29,6 @@ genre = st.radio(
     captions = ["", "", ""])
 
 if genre == ":red[en couple]":
-    st.write("You selected en couple.")
+    st.write("You selected .")
 else:
-    st.write("You didn't select en couple.")
+    st.write("")
