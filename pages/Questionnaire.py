@@ -14,4 +14,4 @@ title = st.text_input("Adresse", "n° et voies")
 
 title = st.text_input("complément d'adresse", "porte")
 
-title = st.text_input("Code postale", "75000")
+title = st.text_input("Code postal", "75000")
