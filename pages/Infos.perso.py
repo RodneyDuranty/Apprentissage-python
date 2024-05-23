@@ -1,8 +1,9 @@
 import streamlit as st
-st.title (" Questionnaire ")
+st.title (" Informations personelles ")
 
 
 st.sidebar.image('photo.webp', caption='Rodney Duranty')
+st.sidebar.link_button("Go to linkedin", "https://www.linkedin.com/in/rodney-duranty/")
 
 title = st.text_input("Nom", "nom")
 
@@ -25,7 +26,7 @@ title = st.text_input("Code postal", "75000")
 
 genre = st.radio(
     "Situation :",
-    ["[en couple]", "célibataire", "marié"],
+    ["en couple", "célibataire", "marié"],
     captions = ["", "", ""])
 
 
