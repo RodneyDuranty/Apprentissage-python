@@ -28,7 +28,4 @@ genre = st.radio(
     [":red[en couple]", "célibataire", "marié:"],
     captions = ["", "", ""])
 
-if genre == ":red[en couple]":
-    st.write("You selected .")
-else:
-    st.write("")
+
