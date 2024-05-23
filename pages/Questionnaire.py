@@ -10,7 +10,13 @@ title = st.text_input("Prénom", "prénom")
 
 age = st.slider("Age", 0, 130 )
 
-title = st.text_input("Adresse", "n° et voies")
+title = st.text_input("Lieu de naissance", "ville")
+
+title = st.text_input("Numéro de tél", "+33")
+
+title = st.text_input("Adresse mail", "@gmail.com")
+
+title = st.text_input("Adresse postal", "n° et voies")
 
 title = st.text_input("complément d'adresse", "porte")
 
